@@ -32,7 +32,7 @@ export default function Home() {
         >
           I Build Products Where <br />
           <span className="bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
-            Code meets Finance meets Gaming
+            Code meets Finance and Gaming
           </span>
         </motion.h1>
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
