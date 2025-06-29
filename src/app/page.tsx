@@ -36,7 +36,7 @@ export default function Home() {
           </span>
         </motion.h1>
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Full-stack dev with an "ahead of the curve" mindset. <br />
+          Full-stack dev with an &quot;ahead of the curve&quot; mindset. <br />
           Web, Frontend, Backend, Fullstack & Mobile — I build &apos;em! <br />I
           turn logic into leverage.
         </p>
@@ -102,7 +102,7 @@ export default function Home() {
         <p className="text-lg sm:text-xl text-muted-foreground mb-6">
           I&apos;m Web developer with a passion for full-stack development and
           gaming. Currently building
-          <strong> CRM's</strong>, and developing my skill in{" "}
+          <strong> CRM&apos;s</strong>, and developing my skill in{" "}
           <strong>Next.js</strong> — blending code, finance, gaming and clean
           design.
         </p>
