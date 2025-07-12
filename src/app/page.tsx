@@ -17,7 +17,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="text-center w-full min-h-screen py-50 bg-gradient-to-r from-black/10 via-zinc-900 to-red-900/60"
+        className="text-center w-full min-h-screen py-50 bg-gradient-to-r text-white from-black/10 via-zinc-900 to-red-900/60"
       >
         <motion.h1
           className="text-4xl sm:text-6xl font-bold tracking-tight"
@@ -99,7 +99,7 @@ export default function Home() {
             About Me
           </span>
         </h2>
-        <p className="text-lg sm:text-xl text-muted-foreground mb-6">
+        <p className="text-lg sm:text-xl text-muted-foreground mb-6 text-white">
           I&apos;m Web developer with a passion for full-stack development and
           gaming. Currently building
           <strong> CRM&apos;s</strong>, and developing my skill in{" "}
@@ -140,7 +140,9 @@ export default function Home() {
               transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">Artallis</h3>
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
+                Artallis
+              </h3>
               <p className="text-white/80 mb-4">
                 The website of a music Conservatory in Lisbon, dedicated to
                 teaching and musical events
@@ -172,7 +174,9 @@ export default function Home() {
  transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">Game-Hub</h3>
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
+                Game-Hub
+              </h3>
               <p className="text-white/80 mb-4">
                 A frontend solo project for a video game library with many
                 filtered options
@@ -208,7 +212,9 @@ export default function Home() {
  transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">WoW Daily</h3>
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
+                WoW Daily
+              </h3>
               <p className="text-white/80 mb-4">
                 Solo project for my guil. News and Guild information about World
                 of Warcraft.
@@ -254,7 +260,9 @@ export default function Home() {
               transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">Game-Hub</h3>
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
+                Game-Hub
+              </h3>
               <p className="text-white/80 mb-4">
                 Full PHP shop with frontend generation and CRM, API and SQL DB.
               </p>
@@ -291,7 +299,9 @@ export default function Home() {
  transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">Campaign Manager</h3>
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
+                Campaign Manager
+              </h3>
               <p className="text-white/80 mb-4">
                 Professional project for editing and sending emails with client
                 database and slick tracking.
@@ -326,7 +336,7 @@ export default function Home() {
  transition-shadow h-full mx-4 md:m-0"
             >
               <div className="h-1 w-10 bg-gradient-to-r from-red-600 to-red-400 mb-4 rounded"></div>
-              <h3 className="text-xl font-semibold mb-3">
+              <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-red-500 to-zinc-500 bg-clip-text text-transparent">
                 Hospital Veterinário de Guimarães
               </h3>
               <p className="text-white/80 mb-4">
@@ -369,7 +379,7 @@ export default function Home() {
             Tech Stack
           </span>
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-white">
           {/* Tech 1 */}
           <motion.div
             whileHover={{ y: 2, scale: 0.9 }}

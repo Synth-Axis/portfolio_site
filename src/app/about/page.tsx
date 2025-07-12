@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen px-6 py-40 flex items-start justify-center">
+    <main className="min-h-screen px-6 py-40 flex items-start justify-center text-neutral-100 bg-gradient-to-br from-black/70 via-zinc-800 to-red-600">
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
-        className="max-w-3xl"
+        className="max-w-3xl "
       >
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">
           Who the hell is Alexandre G.?
