@@ -4,12 +4,12 @@ export const Footer = () => (
   <footer className="bg-gradient-to-r from-black via-zinc-900 to-red-900 py-4 px-3 text-center text-sm text-white ">
     <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
       <p>
-        &copy; {new Date().getFullYear()} Alexandre Garcia. All Rights Reserved.
+        &copy; {new Date().getFullYear()} Sergio Garcia. All Rights Reserved.
       </p>
 
       <div className="flex gap-4">
         <a
-          href="/CV_SA_ GARCIA_2025-ENG.pdf"
+          href="/CV_2026_V3.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"

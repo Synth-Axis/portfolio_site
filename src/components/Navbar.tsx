@@ -49,7 +49,7 @@ export const Navbar = () => {
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-black/50 to-red-800/50 backdrop-blur-md w-[90%] text-white px-8 py-3 rounded-2xl shadow-xl flex items-center justify-between z-50">
       {/* Logo / Name */}
       <Link href="/" className="text-lg font-bold tracking-wide">
-        Alexandre Garcia
+        Sergio Garcia
       </Link>
 
       {/* Desktop Links */}
@@ -100,7 +100,7 @@ export const Navbar = () => {
                 LinkedIn
               </a>
               <a
-                href="mailto:akashsingh4152@gmail.com"
+                href="mailto:garcia.sergio.alexandre@gmail.com"
                 className="block px-4 py-2 hover:bg-red-700 transition"
               >
                 Email
@@ -110,7 +110,7 @@ export const Navbar = () => {
         </div>
 
         <a
-          href="/CV_SA_ GARCIA_2025-ENG.pdf"
+          href="/CV_2026_V3.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"
@@ -168,7 +168,7 @@ export const Navbar = () => {
                 LinkedIn
               </a>
               <a
-                href="mailto:akashsingh4152@gmail.com"
+                href="mailto:garcia.sergio.alexandre@gmail.com"
                 className="block hover:text-red-300"
               >
                 Email

@@ -11,7 +11,7 @@ export default function AboutPage() {
         className="max-w-3xl "
       >
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">
-          Who the hell is Alexandre G.?
+          Who the hell is Sergio Garcia?
         </h2>
         <h3 className="text-xl sm:text-2xl font-bold mb-6">
           I&apos;m a Fullstack Web Developer with a Banker&apos;s Mindset & a
