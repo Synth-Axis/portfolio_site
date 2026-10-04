@@ -1,13 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowDown,
-  ArrowRight,
-  ArrowUpRight,
-  Code2,
-  Github,
-} from "lucide-react";
+import { ArrowDown, ArrowRight, ArrowUpRight, Code2 } from "lucide-react";
 import { ProjectCard } from "@/components/ProjectCard";
+import { BrandIcon } from "@/components/BrandIcon";
 import { projects } from "@/lib/projects";
 import { profile } from "@/lib/profile";
 
@@ -196,7 +191,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Github size={17} /> Find me on GitHub
+            <BrandIcon name="github" size={17} /> Find me on GitHub
             <ArrowUpRight size={17} />
           </a>
         </div>

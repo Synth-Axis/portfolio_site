@@ -9,6 +9,7 @@ License: see DEVICON-LICENSE.txt
 - spring.svg: icons/spring/spring-original.svg
 - postgresql.svg: icons/postgresql/postgresql-original.svg
 - github.svg: icons/github/github-original.svg
+- linkedin.svg: icons/linkedin/linkedin-original.svg
 - docker.svg: icons/docker/docker-original.svg
 - jest.svg: icons/jest/jest-plain.svg
 - postman.svg: icons/postman/postman-original.svg
@@ -18,4 +19,4 @@ License: see DEVICON-LICENSE.txt
 - nodejs.svg: icons/nodejs/nodejs-original-wordmark.svg
 - aws.svg: icons/amazonwebservices/amazonwebservices-original-wordmark.svg
 
-AWS lettering is adapted to the dark site background. GitHub is displayed in white using CSS. Existing icons not listed here retain their original sources.
+AWS lettering is adapted to the dark site background. GitHub is displayed in white using CSS; LinkedIn retains its original colors. Existing icons not listed here retain their original sources.

@@ -3,15 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import {
-  ArrowUpRight,
-  Download,
-  Github,
-  Linkedin,
-  Menu,
-  X,
-} from "lucide-react";
+import { ArrowUpRight, Download, Menu, X } from "lucide-react";
 import { profile } from "@/lib/profile";
+import { BrandIcon } from "@/components/BrandIcon";
 
 const links = [
   { href: "/", label: "Home" },
@@ -126,7 +120,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="GitHub"
               >
-                <Github size={20} />
+                <BrandIcon name="github" size={20} />
               </a>
               <a
                 href={profile.linkedin}
@@ -134,7 +128,7 @@ export function Navbar() {
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <Linkedin size={20} />
+                <BrandIcon name="linkedin" size={20} />
               </a>
             </div>
           </nav>

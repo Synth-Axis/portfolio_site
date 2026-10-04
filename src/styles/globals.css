@@ -615,6 +615,14 @@ p {
 .stack-icon-light {
   filter: brightness(0) invert(1);
 }
+.brand-icon {
+  display: inline-block;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.brand-icon-github {
+  filter: brightness(0) invert(1);
+}
 .contact-banner {
   padding: 56px;
   margin-bottom: 88px;

@@ -1,4 +1,5 @@
-import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
+import { BrandIcon } from "@/components/BrandIcon";
 import { profile } from "@/lib/profile";
 
 export default function ContactPage() {
@@ -28,7 +29,7 @@ export default function ContactPage() {
       </a>
       <div className="contact-social-grid">
         <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
-          <Linkedin size={25} />
+          <BrandIcon name="linkedin" size={25} />
           <div>
             <h2>LinkedIn</h2>
             <p>Let&apos;s connect professionally.</p>
@@ -36,7 +37,7 @@ export default function ContactPage() {
           <ArrowUpRight size={23} />
         </a>
         <a href={profile.github} target="_blank" rel="noopener noreferrer">
-          <Github size={25} />
+          <BrandIcon name="github" size={25} />
           <div>
             <h2>GitHub</h2>
             <p>A closer look at the code.</p>

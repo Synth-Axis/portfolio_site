@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Dependency maintenance
+
+Next.js and `eslint-config-next` are pinned to the same 15.5 release. The npm overrides select security-patched versions of Next.js's PostCSS dependency (8.5.28) and legacy brace-expansion (1.1.21), keeping their existing major versions. Revisit these overrides when upstream dependencies include the fixes.
+
+Social brand icons use local SVG assets through `BrandIcon`, since Lucide's brand icons are deprecated. Icon sources and license information are in `public/tech-icons/SOURCES.md`.
