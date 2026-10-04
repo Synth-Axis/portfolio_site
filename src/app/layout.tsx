@@ -30,13 +30,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <Navbar />
 
-        <main className="flex-1">
-          {children} <Analytics />
+        <main className="flex-1" id="main-content">
+          {children}
         </main>
 
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

@@ -1,63 +1,56 @@
-"use client";
-
-import { motion } from "framer-motion";
+import { ArrowUpRight, Github, Linkedin, Mail } from "lucide-react";
+import { profile } from "@/lib/profile";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen px-6 py-20 flex items-start justify-center">
-      <motion.section
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="max-w-3xl"
-      >
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Contact Me</h2>
-        <p className="mb-6 text-lg text-muted-foreground">
-          Got a question, opportunity, or want to collaborate? Feel free to
-          reach out!
+    <div className="shell page-content contact-page">
+      <div className="page-heading">
+        <p className="eyebrow">Good things start with a conversation</p>
+        <h1>
+          Let&apos;s make
+          <br />
+          <span className="accent">something happen.</span>
+        </h1>
+        <p>
+          A project, an opportunity, or just a hello. I&apos;d love to hear what
+          you have in mind.
         </p>
-
-        <div className="space-y-6">
-          {/* Email */}
-          <div>
-            <h3 className="text-xl font-semibold text-red-500">Email</h3>
-            <p className="text-lg text-muted-foreground">
-              You can reach me at{" "}
-              <a
-                href="mailto:akash@example.com"
-                className="text-red-500 font-medium"
-              >
-                garcia.sergio.alexandre@gmail.com
-              </a>
-            </p>
-          </div>
-
-          {/* Social Links */}
-          <div>
-            <h3 className="text-xl font-semibold text-gray-400">
-              Connect with me
-            </h3>
-            <div className="space-x-6">
-              <a
-                href="https://www.linkedin.com/in/sergioalexandregarcia/"
-                className="text-lg text-red-500 font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://github.com/Synth-Axis"
-                className="text-lg text-red-500 font-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
+      </div>
+      <a href={`mailto:${profile.email}`} className="contact-email">
+        <span className="contact-icon">
+          <Mail size={25} />
+        </span>
+        <div>
+          <span className="eyebrow">Drop me a line</span>
+          <span className="email-address">{profile.email}</span>
         </div>
-      </motion.section>
-    </main>
+        <ArrowUpRight size={27} className="contact-arrow" />
+      </a>
+      <div className="contact-social-grid">
+        <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
+          <Linkedin size={25} />
+          <div>
+            <h2>LinkedIn</h2>
+            <p>Let&apos;s connect professionally.</p>
+          </div>
+          <ArrowUpRight size={23} />
+        </a>
+        <a href={profile.github} target="_blank" rel="noopener noreferrer">
+          <Github size={25} />
+          <div>
+            <h2>GitHub</h2>
+            <p>A closer look at the code.</p>
+          </div>
+          <ArrowUpRight size={23} />
+        </a>
+      </div>
+      <p className="contact-note">
+        Prefer to get to know me first?{" "}
+        <a href={profile.resume} download>
+          Download my resume
+          <ArrowUpRight size={15} />
+        </a>
+      </p>
+    </div>
   );
 }
