@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sergio Garcia | Portfolio",
   description: "Showcasing my work in web, mobile and backend development.",
+  icons: {
+    icon: { url: "/images/favico.png", type: "image/png" },
+  },
 };
 
 export default function RootLayout({
